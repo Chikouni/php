@@ -32,11 +32,15 @@ if(isset($_GET['id']))
         Nom = <?php echo $userinfo['nom']; ?>
 
         <?php 
-        if($userinfo['identifiant'] == $_SESSION['id'])
+        if(isset($_SESSION['id']) AND $userinfo['identifiant'] == $_SESSION['id'])
         {
         ?>
         <a href="deconnexion.php">Deconnexion</a>
         <?php
+        }
+        else
+        {
+        header("location: index.php");
         }
         ?>
         
