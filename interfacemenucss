@@ -1,29 +1,26 @@
+
 body{
     background-image: url(1920x1080-new-york-manhattan-street-building-city-night-wallpaper-wpc9201300);
 }
 
-
-.banderole{
-    text-align: center;
-    background-color: #A5BCE3;
-    font-family: 'Montserrat', sans-serif;
+.container{
+    padding: 150px; /* Permet au contenu du site de se placer juste en dessous de la navbar (sinon ça commencerait en dessous de celle-ci) */
 }
 
-.bgcarre{
-    width:400px; /*Longueur du carré*/
-    height:400px; /*Hauteur du carré*/
-    border-radius: 10px; /*Arrondissement des bords*/
-    margin-left: auto; 
-    margin-right: auto;
-    margin-top: 100px;
-    background: white;
-    box-shadow: 1px 1px 12px #555;
+.menu{
+	width:400px;
+	height:400px;
+        background: white;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px;
+        
+        margin-left: auto;
+        margin-right: auto;
+        
+        text-align: center;
 }
 
-
-.btn{
-    width: 300px; /*Longueur des bouttons*/
-    height: 65px; /*Hauteur des bouttons*/
-    margin-left: 50px; /*J'utilise ça pour centrer les bouttons*/
-    margin-top: 40px; /*Espacement entre les bouttons */
+.btn-group-vertical{
+        margin-top: 77px;
+        width: 300px;
 }
