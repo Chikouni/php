@@ -1,0 +1,31 @@
+body{
+    background-image: url(1920x1080-new-york-manhattan-street-building-city-night-wallpaper-wpc9201300);
+}
+
+.container{
+    padding: 150px; /* Permet au contenu du site de se placer juste en dessous de la navbar (sinon ça commencerait en dessous de celle-ci) */
+}
+
+.menu{
+	width:400px;
+	height:400px;
+        background: white;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px;
+        
+        margin-left: auto;
+        margin-right: auto;
+        
+        text-align: center;
+}
+
+.liste{
+    margin: 0 auto;
+    width: 240px;
+    height: 200px;
+    overflow: auto;
+}
+
+.btn-group-vertical{
+    width: 200px;
+}
