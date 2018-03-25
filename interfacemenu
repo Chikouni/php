@@ -16,9 +16,9 @@ include_once 'navbar.php';
                 <h1>MENU</h1>
                 
                 <div class="btn-group-vertical">
-                    <button type="button" class="btn btn-success">Mes Chatrooms</button>
-                    <button type="button" class="btn btn-success">Autres Chatrooms</button>
-                    <button type="button" class="btn btn-success">Invitations</button>
+                    <a href="meschatrooms.php" class="btn btn-success" type="button">Mes Chatrooms</a>
+                    <a href="#" class="btn btn-success" type="button">Autres Chatrooms</a>
+                    <a href="#" class="btn btn-success" type="button">Invitations</a>
                 </div>
             </div>
         </div>
@@ -30,4 +30,5 @@ include_once 'navbar.php';
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     </footer>
 </html>
+
 
